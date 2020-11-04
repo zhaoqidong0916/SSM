@@ -22,7 +22,13 @@ public class UserController {
     @Autowired
     private UserServiceImpl userService;
 
-        @RequestMapping("/toIndex")
+    /**
+     * 测试，根据id查询个人信息并经过视图解析器解析交给前段控制器，最后相应页面！
+     * @param request
+     * @param model
+     * @return
+     */
+    @RequestMapping("/toIndex")
     public String toIndex(HttpServletRequest request, Model model){
         int userId = Integer.parseInt(request.getParameter("id"));
         User user = userService.getUserById(userId);
@@ -31,6 +37,7 @@ public class UserController {
     }
 
 
+    /*以下没有映射的数据请求*/
     /**
      * 无参数项目测试,查询所有
      * @return
