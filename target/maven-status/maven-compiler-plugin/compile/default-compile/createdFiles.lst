@@ -1,0 +1,9 @@
+com\haitai\pojo\User.class
+com\haitai\pojo\UserExample$GeneratedCriteria.class
+com\haitai\pojo\UserExample$Criterion.class
+com\haitai\controller\UserController.class
+com\haitai\pojo\UserExample$Criteria.class
+com\haitai\pojo\UserExample.class
+com\haitai\service\impl\UserServiceImpl.class
+com\haitai\service\UserService.class
+com\haitai\mapper\UserMapper.class
