@@ -18,7 +18,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/admin")
 public class UserController {
-
+    //回退成功了！
     @Autowired
     private UserServiceImpl userService;
 
